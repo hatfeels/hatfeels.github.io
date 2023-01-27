@@ -1,0 +1,25 @@
+{
+    "gender": "male",
+    "name": {
+        "title": "Mr",
+        "first": "Albert",
+         "last": "Diez"
+    },
+    "email": "albert.diez@example.com",
+    "dob": {
+        "date": "1965-04-08T05:03:42.609Z",
+        "age": 32
+    },
+    "direccion":"Villa Herrero, Moreno, Buenos Aires, Argentina (CP) 1744",
+    "cell": "(+54) 11-6821-5964",
+    "id": {
+        "name": "DNI",
+        "value": "36106034"
+    },
+    "picture": {
+        "large": "https://randomuser.me/api/portraits/men/71.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/71.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/71.jpg"
+    },
+    "nat": "argentino" 
+}

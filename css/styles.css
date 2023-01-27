@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+  }
+/* Menu sidenav */
+  .menu {
+    text-align: center;
+    width: 20%; height: 100%;
+    float: left;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(23, 24, 23);
+  }
+
+  img {
+    width: 150px; height: 150px;
+    border-radius: 100%;
+    }
+
+  .boton {
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+  }
+  .boton:hover{
+    background-color: rgba(255, 255, 255, 0.747);
+  }
+  .boton:active{
+    background-color: rgba(46, 110, 9, 0.753);
+  }
+/*Menu central*/
+  .header {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+    background: none;
+    text-align: center;
+    width: 80%;
+    float: right;
+    font-size: 48px;
+  }
+  
+  .main {
+    width: 80%;
+    position: relative;
+    height: 100%;
+    float: right;
+    padding: 15px;
+    background: none;
+  }
+
+  .contenido {
+    float: left;
+    background: none;
+    margin: 50px;
+  }
+/*pie de pagina*/
+  footer {
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 10px;
+    float: right;
+    width: 80%;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+  }
+
+  footer p{
+    margin: 2px;
+  }
+  /*elementos de linea*/
+  li {
+    list-style: none;
+  }
+
+  p {
+    text-indent: 1.2em;
+    margin: 15px;
+  }
+  
+/*Fomulario de consulta*/
+   input,textarea {
+    border: black;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.082);
+    height: 30px;
+    margin: 15px;
+   }
+
+   textarea {
+    height: 150px;
+    resize: none;
+   }

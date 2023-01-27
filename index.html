@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-3">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final Integrador</title>
+    <link rel="icon" type="image/x-icon" href="css/pager-solid.svg">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section >
+        <nav class="menu" id="menuLateral">
+            <img id="foto" src="css/perfil.jpeg" alt="Foto de perfil">
+            <h2 id="nombre" style="color: aliceblue; margin: 10px;"></h2>
+
+            <li ><button class="boton" onclick="mostrarInfo ('precentacion')"> <strong>presentación</strong></button></li>
+            <li ><button class="boton" onclick="mostrarInfo ('experiencia')"><strong>Experiecia</strong></button></li>
+            <li ><button class="boton" onclick="mostrarInfo ('habilidades')"><strong>Habilidades</strong></button></li>
+            <li ><button class="boton" onclick="mostrarInfo ('formacion')"><strong>Formación</strong></button></li>
+            <li ><button class="boton" onclick="mostrarInfo ('contacto')"><strong>Contactame</strong></button></li>
+        </nav>
+    </section>
+    
+    <section>
+        <section>
+            <div class="header">
+                <h1>Desarrollador web front-end</h1>
+            </div>
+        
+            <div class="main" id="menucentral">
+                
+                <section class="contenido" id="actual">
+                    <p><strong style="background: none;">Hola soy Albert Diez</strong>, desarrollador web front-end Nulla eu nisi sit amet lacus tincidunt volutpat in at dui. Nunc bibendum quis orci sed condimentum. Nullam in dapibus lorem. Etiam a nibh eros. Maecenas lorem enim, pharetra ac posuere a, cursus quis sem. Sed ac interdum nisi, sit amet varius ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean sit amet odio luctus, maximus nisi vitae, scelerisque lacus. Phasellus at metus convallis, ullamcorper augue et, mattis purus. Sed sagittis ornare pulvinar. Aenean tempus convallis dictum. Vestibulum scelerisque accumsan lectus et auctor. Vivamus lobortis ipsum sit amet iaculis lacinia. Praesent porttitor ipsum sit amet diam interdum, dapibus tincidunt nisi scelerisque. Duis fermentum ultrices sem, eget scelerisque augue feugiat vitae.</p>
+                    <p>Curabitur egestas velit sem. Phasellus vestibulum elit nisi, vel placerat leo gravida sit amet. Aliquam at varius massa. Fusce ligula metus, rhoncus et ultrices vitae, dignissim vel elit. Mauris scelerisque nulla sit amet pellentesque lobortis. Praesent viverra mi ut hendrerit lacinia. Nam in commodo dolor, sit amet laoreet metus. Integer dictum dui vitae tellus ornare, id imperdiet urna mattis. Integer eget urna id justo feugiat mattis in a odio.</p>
+                </section>
+        
+                <div class="contenido" id="precentacion" style="display: none;">
+                    <p><strong style="background: none;">Hola soy Albert Diez</strong>, desarrollador web front-end Nulla eu nisi sit amet lacus tincidunt volutpat in at dui. Nunc bibendum quis orci sed condimentum. Nullam in dapibus lorem. Etiam a nibh eros. Maecenas lorem enim, pharetra ac posuere a, cursus quis sem. Sed ac interdum nisi, sit amet varius ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean sit amet odio luctus, maximus nisi vitae, scelerisque lacus. Phasellus at metus convallis, ullamcorper augue et, mattis purus. Sed sagittis ornare pulvinar. Aenean tempus convallis dictum. Vestibulum scelerisque accumsan lectus et auctor. Vivamus lobortis ipsum sit amet iaculis lacinia. Praesent porttitor ipsum sit amet diam interdum, dapibus tincidunt nisi scelerisque. Duis fermentum ultrices sem, eget scelerisque augue feugiat vitae.</p>
+                    <p>Curabitur egestas velit sem. Phasellus vestibulum elit nisi, vel placerat leo gravida sit amet. Aliquam at varius massa. Fusce ligula metus, rhoncus et ultrices vitae, dignissim vel elit. Mauris scelerisque nulla sit amet pellentesque lobortis. Praesent viverra mi ut hendrerit lacinia. Nam in commodo dolor, sit amet laoreet metus. Integer dictum dui vitae tellus ornare, id imperdiet urna mattis. Integer eget urna id justo feugiat mattis in a odio.</p>
+                </div>
+        
+                <div class="contenido" id="habilidades" style="display: none;">
+                    <h4 >Habilidades Blandas</h4>
+                    <p >Resolución de problemas,  Organización del trabajo, Trabajo en equipo, Manejo de datos, Autonomía y proactividad, Capacidad de liderazgo</p>
+                    <h4 >Manejo de programas</h4>
+                    <p >ZaraRadio, DINESAT, OBS, Stream Labs, paquete Office, Affinity Photo (básico), SoundForge, Adobe Audition, vegas pro.</p>
+                    <h4>Lenguages</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                    <h4 >Idiomas</h4>
+                    <p >Español nativo; Ingles basico</p>
+                </div>
+        
+                <div class="contenido" id="experiencia" style="display: none;">
+                    <h4 >FM Moreno/ Controlador de emisiones de radio Multiplataforma</h4>
+                    <p >Puesta al aire y operación de streaming en vivo (Multiplataforma), mantenimiento y conexiones de equipos.</p>
+                    <h4 >Radio Activa/ Controlador de emisiones de radio Multiplataforma</h4>
+                    <p >Puesta al aire y operación de streaming en vivo (Multiplataforma).</p>
+                </div>
+        
+                <div class="contenido" id="formacion" style="display: none;">
+                    <h4>EEST nº2 Gendarmería nacional/ Secundario Técnico Químico</h4>
+                    <p>03/2007 - 12/2014, Moreno</p>
+                    <h4>Universidad Nacional de Moreno/ Lic. Biotecnología</h4>
+                    <p>03/2016 - Incompleto, Moreno</p>
+                </div>
+        
+                <div class="contenido" id="contacto" style="display: none;">
+                    <h4>Dejame tu consulta con tus datos de contacto</h4>
+                    <form action="" target="_self">
+                        <input type="text" name="nombre" placeholder="Nombre y apellido" required>
+                        <input type="email" name="e-mail" placeholder="E-mail@ejemplo.com" required><br/>
+                        <textarea name="consulta" id="" cols="80" rows="50" maxlength="500" placeholder="Max 500 caracteres" required></textarea><br/>
+                        <input type="submit" onclick="alert(`Gracias por su consulta`)">
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <footer>
+                <p id="direccion"></p>
+                <p><a id="numero"></a></p>
+                <p><a id="e-mail"></a></p>
+            </footer>
+        </section>
+    </section>
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>
